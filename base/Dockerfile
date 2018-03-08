@@ -1,6 +1,5 @@
-FROM bde2020/hadoop-base:2.0.0-hadoop2.7.4-java8
+FROM earthquakesan/hadoop:base-2.0.0-hadoop2.7.2
 
-MAINTAINER Erika Pauwels <erika.pauwels@tenforce.com>
 MAINTAINER Ivan Ermilov <ivan.s.ermilov@gmail.com>
 
 ENV ENABLE_INIT_DAEMON true
