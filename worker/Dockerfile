@@ -1,6 +1,5 @@
-FROM bde2020/spark-base:1.6.3-nohadoop-java8-scala2.11
+FROM bde2020/spark-base:2.1.2-nohadoop-java8
 
-MAINTAINER Erika Pauwels <erika.pauwels@tenforce.com>
 MAINTAINER Ivan Ermilov <ivan.s.ermilov@gmail.com>
 
 HEALTHCHECK CMD curl -f http://localhost:8081/ || exit 1
